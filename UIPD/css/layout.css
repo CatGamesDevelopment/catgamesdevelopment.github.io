@@ -899,26 +899,6 @@ call-to-action .button {
     top: 17px;
 }
 
-
-/* Twitter Feed */
-#twitter {
-    margin-top: 12px;
-    padding: 0;
-}
-#twitter li {
-    margin: 6px 0px 12px 0;
-    line-height: 30px;
-}
-#twitter li span {
-    display: block;
-}
-#twitter li b a {
-    font: 13px/36px 'opensans-regular', Sans-serif;
-    color: #474747 !important;
-    border: none;
-}
-
-
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
@@ -1002,3 +982,62 @@ footer .social-links li:first-child { margin-left: 0; }
     border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+.infos {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+    width: 300px;
+    height: 330px;
+    overflow: hidden;
+    color: #101010;
+}
+
+.infos:hover {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+    width: 500px;
+    overflow: hidden;
+    color: white;
+    animation: infosan 200ms 0ms linear;
+}
+
+@keyframes infosan {
+    from{width: 300px; color: #101010}
+    to{width: 500px; color: white}
+}
+
+.clearfix {
+    background-color: #101010;
+    border-radius: 100px
+}
+
+#stats {
+    background: #191919;
+    padding-top: 96px;
+    padding-bottom: 102px;
+    color: #636363;
+}
+
+#head {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 80px;
+    position: relative;
+    align-self: center;
+}
+
+
+
+
+
+
+
+.pos-relativ {
+    position: relative;
+}
+.pos-absolute {
+    position: absolute;
+}

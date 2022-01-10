@@ -22,7 +22,11 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body {
+    background: #0f0f0f;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles

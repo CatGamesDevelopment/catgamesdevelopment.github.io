@@ -1016,7 +1016,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .outer:hover {
     animation: outer 1000ms;
-    border-radius: 100px;
+    border-radius: 120px;
     background-color: black;
 }
 
@@ -1031,10 +1031,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 @keyframes outer {
     from{background-color: #191919; border-radius: 0px }
-    to{background-color: black; border-radius: 100px}
+    to{background-color: black; border-radius: 120px}
 }
 @keyframes outer-back {
-    from{background-color: black; border-radius: 100px}
+    from{background-color: black; border-radius: 120px}
     to{background-color: #191919; border-radius: 0px}
 }
 

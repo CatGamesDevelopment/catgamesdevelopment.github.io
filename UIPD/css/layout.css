@@ -1017,7 +1017,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .outer:hover {
     animation: outer 1000ms;
     border-radius: 120px;
-    background-color: black;
+    background-color: darkslategrey;
 }
 
 @keyframes inner {
@@ -1031,10 +1031,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 @keyframes outer {
     from{background-color: #191919; border-radius: 0px }
-    to{background-color: black; border-radius: 120px}
+    to{background-color: darkslategrey; border-radius: 120px}
 }
 @keyframes outer-back {
-    from{background-color: black; border-radius: 120px}
+    from{background-color: darkslategrey; border-radius: 120px}
     to{background-color: #191919; border-radius: 0px}
 }
 
@@ -1055,13 +1055,33 @@ footer .social-links li:first-child { margin-left: 0; }
     align-self: center;
     left: 40%;
     bottom: 5vh;
+
+}
+
+#stats .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#stats .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* --== Text Style ==-- */
+    font-family: Stick No Bills, sans-serif;
+    font-size: 60px;
 }
 
 
-
-
-
-
+.stats-images-style {
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 20vh;
+    border-radius: 40%;
+}
 
 .pos-relativ {
     position: relative;

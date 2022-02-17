@@ -1051,9 +1051,6 @@ footer .social-links li:first-child { margin-left: 0; }
     font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 80px;
-    position: relative;
-    align-self: center;
-    left: 40%;
     bottom: 5vh;
 
 }
